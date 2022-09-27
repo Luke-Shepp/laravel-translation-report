@@ -2,6 +2,7 @@
     "name": "shepp/laravel-translation-report",
     "description": "Generate a CSV report of missing translations in a Laravel project",
     "type": "library",
+    "license": "GPL-3.0-only",
     "require": {
         "php": "^8.0",
         "laravel/framework": "^8.0|^9.0"
