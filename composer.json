@@ -1,0 +1,27 @@
+{
+    "name": "shepp/laravel-translation-report",
+    "description": "Generate a CSV report of missing translations in a Laravel project",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shepp\\LaravelTranslationReport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luke Sheppard",
+            "email": "luke@luke-sheppard.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shepp\\LaravelTranslationReport\\ServiceProvider"
+            ]
+        }
+    }
+}
